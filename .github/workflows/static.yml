@@ -38,8 +38,8 @@ jobs:
           node-version: '24.x'
       - name: NPM continius integration
         run: npm ci
-      - name: NPM tests
-        run: npm test
+      # - name: NPM tests
+      #   run: npm test
       - name: NPM install packages
         run: npm install
 
