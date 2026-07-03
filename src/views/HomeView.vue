@@ -1,14 +1,10 @@
-<script setup></script>
+<script setup>
+import ProjectShowcase from '@/components/ProjectShowcase.vue'
+</script>
 
 <template>
   <section>
-    <article>x</article>
-  </section>
-  <section>
-    <article>x</article>
-  </section>
-  <section>
-    <article>x</article>
+    <ProjectShowcase></ProjectShowcase>
   </section>
 </template>
 

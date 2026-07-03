@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "org": "IPI — Independent Protocol Infrastructure",
+    "orgUrl": "https://github.com/ipicoin",
+    "description": "Katalog projektów organizacji IPI (Independent Protocol Infrastructure) — federacja DAO w ekosystemie Cosmos. Showcase wygenerowany w ramach Fali 5.",
+    "declaration": "https://github.com/ipicoin/universal-independency-declaration",
+    "generated": "2026-07-03",
+    "categories": ["rdzeń", "wallet", "apki", "hardware", "infra", "fork"],
+    "statuses": ["PRE-ALPHA", "EARLY-DEV", "STABLE", "FORK"]
+  },
+  "projects": [
+    {
+      "name": "independency-daemon",
+      "description": "Węzeł łańcucha (ipid) — fork aplikacji Cosmos SDK z kontraktami WebAssembly, zastępujący dotychczasowy propagator sieci.",
+      "category": "rdzeń",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/independency-daemon",
+      "language": "Go",
+      "fork": true
+    },
+    {
+      "name": "universal-independency-declaration",
+      "description": "Manifest łańcucha, deklaracja federacji DAO oraz konfiguracja i dokumenty założycielskie projektu IPI.",
+      "category": "rdzeń",
+      "status": "STABLE",
+      "url": "https://github.com/ipicoin/universal-independency-declaration",
+      "language": "Python",
+      "fork": false
+    },
+    {
+      "name": "chainconfig",
+      "description": "Konfiguracja blockchaina przedstawiona jako rozdzielone drzewo w jednym repozytorium.",
+      "category": "rdzeń",
+      "status": "EARLY-DEV",
+      "url": "https://github.com/ipicoin/chainconfig",
+      "language": "JavaScript",
+      "fork": false
+    },
+    {
+      "name": "chain-registry",
+      "description": "Oficjalny rejestr łańcuchów w ekosystemie Cosmos — fork utrzymywany dla integracji IPI.",
+      "category": "rdzeń",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/chain-registry",
+      "language": "Python",
+      "fork": true
+    },
+    {
+      "name": "wallet-core.js",
+      "description": "Rdzeń portfela IPI — pakiet JavaScript do prostego zarządzania portfelem w federowanych systemach IPI.",
+      "category": "wallet",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/wallet-core.js",
+      "language": "JavaScript",
+      "fork": false
+    },
+    {
+      "name": "protocolix",
+      "description": "Mobilna aplikacja IPI DAO do obsługi portfela w federowanych systemach IPI (Android i iOS).",
+      "category": "wallet",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/protocolix",
+      "language": "Swift",
+      "fork": false
+    },
+    {
+      "name": "Iswap",
+      "description": "Aplikacja do wymiany (swap) tokenów w ramach IPI DAO.",
+      "category": "apki",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/Iswap",
+      "language": "TypeScript",
+      "fork": false
+    },
+    {
+      "name": "Ivote",
+      "description": "Aplikacja do składania i głosowania nad propozycjami (proposals) w IPI DAO.",
+      "category": "apki",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/Ivote",
+      "language": "TypeScript",
+      "fork": false
+    },
+    {
+      "name": "ipi-nft",
+      "description": "Łańcuchowa implementacja NFT wewnątrz IPI DAO.",
+      "category": "apki",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/ipi-nft",
+      "language": "TypeScript",
+      "fork": false
+    },
+    {
+      "name": "ipi-rpc",
+      "description": "Bramka webowa RPC IPI — punkt dostępowy do sieci dla aplikacji.",
+      "category": "infra",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/ipi-rpc",
+      "language": "TypeScript",
+      "fork": false
+    },
+    {
+      "name": "hq-spacecraft",
+      "description": "Standaryzowane środowisko bazowe dla rozproszonych, federowanych organizacji zjednoczonych przez IPI — zestaw usług open source ze zintegrowanym IPI jako nośnikiem stabilizacji konsensusu.",
+      "category": "infra",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/hq-spacecraft",
+      "language": "Python",
+      "fork": false
+    },
+    {
+      "name": "www.ipi.io",
+      "description": "Strona główna projektu (landing) przeniesiona na hosting GitHub jako statyczna aplikacja SPA.",
+      "category": "infra",
+      "status": "EARLY-DEV",
+      "url": "https://github.com/ipicoin/www.ipi.io",
+      "language": "HTML",
+      "fork": false
+    },
+    {
+      "name": "ipicoin.github.io",
+      "description": "Podgląd publikacji projektów GitHub organizacji IPI — witryna działu opSor (Vue 3 + Vite).",
+      "category": "infra",
+      "status": "EARLY-DEV",
+      "url": "https://github.com/ipicoin/ipicoin.github.io",
+      "language": "JavaScript",
+      "fork": false
+    },
+    {
+      "name": "standard_repo_template",
+      "description": "Wzorcowy szablon repozytorium IPI — zakresy i procedury B.O.S., system wersjonowania GRIH oraz wspólne pliki (ignores, deklaracje kontrybucji, licencja, readme).",
+      "category": "infra",
+      "status": "STABLE",
+      "url": "https://github.com/ipicoin/standard_repo_template",
+      "language": "Markdown",
+      "fork": false
+    },
+    {
+      "name": "cheers-protocol",
+      "description": "Protokół Independent Protocol Infrastructure dla kart fizycznych z chipsetami RFID (inspirowany 3DS) — prepaid wallets dla członków społeczności w okresie eventów. Część universal independence declaration.",
+      "category": "hardware",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/cheers-protocol",
+      "language": "Shell",
+      "fork": true
+    },
+    {
+      "name": "cheer-gear",
+      "description": "Implementacja interfejsu terminala płatniczego wg „Cheers protocol” — łączy popularne moduły elektroniczne i oprogramowanie open source jako projekt DIY proof-of-work.",
+      "category": "hardware",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/cheer-gear",
+      "language": "C++",
+      "fork": true
+    },
+    {
+      "name": "minimal-gas-meter",
+      "description": "Minimalistyczny moduł pomiaru gazu (gas metering) do symulacji smart kontraktów w przeglądarce.",
+      "category": "hardware",
+      "status": "PRE-ALPHA",
+      "url": "https://github.com/ipicoin/minimal-gas-meter",
+      "language": "C",
+      "fork": false
+    },
+    {
+      "name": "cw-template",
+      "description": "Szablon startowy do pisania własnych kontraktów CosmWasm — fork CosmWasm/cw-template.",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/cw-template",
+      "language": "Rust",
+      "fork": true
+    },
+    {
+      "name": "nikeee___node-ntag424",
+      "description": "Fork uznaniowy — implementacja Node.js do współpracy z NTAG 424 DNA (RFID/NFC).",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/nikeee___node-ntag424",
+      "language": "TypeScript",
+      "fork": true
+    },
+    {
+      "name": "w3c___webauthn",
+      "description": "Fork uznaniowy — Web Authentication: API dostępu do poświadczeń klucza publicznego (WebAuthn).",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/w3c___webauthn",
+      "language": "HTML",
+      "fork": true
+    },
+    {
+      "name": "Yubico___yubico-piv-tool",
+      "description": "Fork uznaniowy — narzędzie CLI do aplikacji PIV klucza YubiKey.",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/Yubico___yubico-piv-tool",
+      "language": "C",
+      "fork": true
+    },
+    {
+      "name": "ipfs___helia",
+      "description": "Fork uznaniowy — implementacja IPFS w TypeScript.",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/ipfs___helia",
+      "language": "TypeScript",
+      "fork": true
+    },
+    {
+      "name": "ArweaveTeam___arweave-js",
+      "description": "Fork uznaniowy — klient przeglądarkowy i Node.js do interakcji z protokołem i bramkami Arweave.",
+      "category": "fork",
+      "status": "FORK",
+      "url": "https://github.com/ipicoin/ArweaveTeam___arweave-js",
+      "language": "TypeScript",
+      "fork": true
+    }
+  ]
+}

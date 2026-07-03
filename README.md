@@ -6,6 +6,22 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
+## Showcase (Fala 5)
+
+Strona główna prezentuje **Showcase projektów organizacji IPI** — uporządkowany
+katalog repozytoriów org (rdzeń, wallet, apki, hardware, infra, fork) z
+filtrowaniem po kategorii i statusie.
+
+- Źródło danych: [`src/data/projects.json`](src/data/projects.json) —
+  pola: `name`, `description`, `category`, `status`, `url`, `language`, `fork`.
+- Komponent: [`src/components/ProjectShowcase.vue`](src/components/ProjectShowcase.vue)
+  — renderuje karty i realizuje filtrowanie (reaktywne `computed`).
+- Podłączenie: [`src/views/HomeView.vue`](src/views/HomeView.vue).
+
+Aby dodać nowy projekt, wystarczy dopisać wpis do `projects.json` — karty
+generują się automatycznie. Realizacja zadania
+[[Fala 5] Showcase projektów org](https://github.com/ipicoin/universal-independency-declaration/issues/1).
+
 ## Project Setup
 
 ```sh
