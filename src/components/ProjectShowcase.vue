@@ -171,15 +171,9 @@ function statusClass(status) {
 
 .filter-chip.is-active {
   opacity: 1;
-  background: currentColor;
-}
-
-.filter-chip.is-active {
-  color: inherit;
-}
-
-.filter-chip.is-active {
-  box-shadow: inset 0 0 0 2rem rgba(127, 127, 127, 0.25);
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
 }
 
 .showcase-count {
