@@ -1,6 +1,7 @@
 {
   "name": "ipicoin.github.io",
   "version": "0.0.0",
+  "license": "Apache-2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -48,8 +49,8 @@
     "oxlint": "~1.60.0",
     "prettier": "3.8.3",
     "snyk": "^1.1304.2",
-    "vite": "^8.0.8",
-    "vite-plugin-vue-devtools": "^8.1.1",
+    "vite": "^8.1.4",
+    "vite-plugin-vue-devtools": "^8.1.5",
     "vitest": "^4.1.4"
   },
   "engines": {
