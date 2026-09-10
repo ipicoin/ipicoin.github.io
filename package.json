@@ -51,7 +51,7 @@
     "snyk": "^1.1304.2",
     "vite": "^8.1.4",
     "vite-plugin-vue-devtools": "^8.1.5",
-    "vitest": "^4.1.4"
+    "vitest": "^4.1.11"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
